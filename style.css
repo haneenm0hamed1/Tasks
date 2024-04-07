@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    height: 100vh;
+    background-color:	 #001f33;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 500px;
+    background-color:#b3b3b3;
+    padding: 20px;
+    border-radius:15px;
+    transition: 1s;
+}
+
+.todo-header{
+    display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 20px;
+transition: 0.5s;
+}
+.todo-header:hover{
+    letter-spacing: 2px;
+}
+.todo-header img{
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+}
+.todo-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#001f33;
+    padding: 10px 2px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.todo-box:hover{
+background-color: #003d66;
+
+}
+.todo-box img{
+    width: 30px;
+    height: 40px;
+    cursor: pointer;
+    padding: 2px;
+
+}
+.todo-box input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-size: 15px;
+    color: #b3b3b3;
+}
+.btn{
+    width: 60px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 3px;
+    color:#b3b3b3 ;
+    background-color: #a32e2e;
+    border: none;
+    transition: 0.5s;
+}
+.btn:hover{
+ width: 70px;
+ letter-spacing: 2px;
+ background-color:#640808 ;
+}
+ul {
+    list-style: none;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px;
+}
+ ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius:10px ;
+    background-color:#001f33;
+margin-bottom: 5px;
+padding: 5px;
+color: #b3b3b3;
+position: relative;
+}
+
+.control{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    padding: 3px;
+    margin-right:10px ;
+}
+.edit{
+    width:32px;
+}
+.value{
+    padding: 20px;
+margin: 10px;
+}
+.darkness{
+    position: relative;
+}
+.dark{
+    position:absolute;
+   position: absolute;
+   width: 40px;
+    height: 40px;
+    top: 250px;
+    right: 20px;
+    transition: 1s;
+    cursor: pointer;
+}
+.active{
+    background-color:#e6f5ff;
+    
+}
+
+
+
+  /*   .deleteAll{
+      display: none;
+      align-items: end;
+      justify-content: end;
+      padding: 10px;
+   }  */

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-DoList</title>
+</head>
+<body id="body">
+  <div class="container">
+    <div class="todo-header">
+        <h3>ToDo List</h3>
+        <img  id="todo-img" src="todo.gif"/>
+    </div>
+    <div class="todo-box">
+        <input type="text" placeholder="Add Your Task" id="todo-text" required title="Please Enter Your ToDo">
+    <img src="plus.png" onclick="CreateToDo()" id="add"/>
+    </div>
+    <ul class="list-item" id="list-item">
+      
+    </ul>
+  </div>
+  
+  <div class="darkness">
+    <img id="dark" src="darkk.png" class="dark">
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
+
+
+
+<!--  <div id="deleteAll" class="deleteAll">
+ <button id="btn" onclick="deleteAll()" class="btn">Delete All</button>
+</div>  -->
